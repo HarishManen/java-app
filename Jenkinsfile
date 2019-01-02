@@ -1,5 +1,5 @@
 pipeline {
-	agent { label 'UbuntuTower' }
+	agent { label 'ubuntutower','ansible' }
     stages {
         stage ('checkout') {
             steps {
